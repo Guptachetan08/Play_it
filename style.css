@@ -72,9 +72,10 @@ nav ul li{
 
 #myProgressBar{
     width: 80vw;
+    cursor: pointer;
 }
 .songlist{
-    width: 50%;
+    width: 60%;
 }
 
 .songItemContainer{
@@ -101,19 +102,22 @@ nav ul li{
 }
 
 .timestamp{
-    margin: 0 23px;
+    margin: 0 5px;
 }
-.timestamp i{
+.timei{
+    padding: 10px;
+    transform: scale(1.5);
     cursor: pointer;
 }
 
 .songInfo{
     position: absolute;
     left: 10vw;
+    font-family: 'Varela Round', sans-serif;
     max-width: 30vw;
     max-height: fit-content;
 }
 .songInfo img{
     opacity: 0;
-    transition: opacity 1s ease-in;
+    transition: opacity 0.4s ease-in;
 }
