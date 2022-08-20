@@ -10,16 +10,16 @@ let songItem = Array.from(document.getElementsByClassName('songItem'));
 
 myProgressBar.value = 0;
 let songs = [
-    {songName: "Warriyo - Muritals", filePath: "songs/1.mp3", coverPath: "covers/1.jpg", duration: "3:50"},
-    {songName: "Cielo - Huma Huma", filePath: "songs/2.mp3", coverPath: "covers/2.jpg", duration: "2:33"},
-    {songName: "Deaf key", filePath: "songs/3.mp3", coverPath: "covers/3.jpg", duration: "4:33"},
-    {songName: "Bella ciao", filePath: "songs/4.mp3", coverPath: "covers/4.jpg", duration: "4:27"},
-    {songName: "Heaven & hide", filePath: "songs/5.mp3", coverPath: "covers/5.jpg", duration: "3:28"},
-    {songName: "Love me alone", filePath: "songs/6.mp3", coverPath: "covers/6.jpg", duration: "3:28"},
-    {songName: "janji heros", filePath: "songs/7.mp3", coverPath: "covers/7.jpg", duration: "4:33"},
-    {songName: "Leaches", filePath: "songs/8.mp3", coverPath: "covers/8.jpg", duration: "3:50"},
-    {songName: "left it too", filePath: "songs/9.mp3", coverPath: "covers/9.jpg", duration: "3:28"},
-    {songName: "Killing me inside", filePath: "songs/10.mp3", coverPath: "covers/10.jpg", duration: "4:27"}
+    {songName: "295 - Sidhu", filePath: "songs/1.mp3", coverPath: "covers/1.jpg", duration: "4:32"},
+    {songName: "Allah-Maaf-Kre -Amrit", filePath: "songs/2.mp3", coverPath: "covers/2.jpg", duration: "3:30"},
+    {songName: "Chityian - Karan", filePath: "songs/3.mp3", coverPath: "covers/3.jpg", duration: "3:50"},
+    {songName: "Des Malwa - Sajjan", filePath: "songs/4.mp3", coverPath: "covers/4.jpg", duration: "4:32"},
+    {songName: "Dil Mangaya", filePath: "songs/5.mp3", coverPath: "covers/5.jpg", duration: "3:02"},
+    {songName: "Dobda Sooraj", filePath: "songs/6.mp3", coverPath: "covers/6.jpg", duration: "3:17"},
+    {songName: "The Last Ride", filePath: "songs/7.mp3", coverPath: "covers/7.jpg", duration: "4:35"},
+    {songName: "Levels", filePath: "songs/8.mp3", coverPath: "covers/8.jpg", duration: "3:51"},
+    {songName: "So High", filePath: "songs/9.mp3", coverPath: "covers/9.jpg", duration: "3:33"},
+    {songName: "What Ve", filePath: "songs/10.mp3", coverPath: "covers/10.jpg", duration: "3:11"}
 ]
 
 songItem.forEach((element,i) =>{
